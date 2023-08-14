@@ -49,5 +49,7 @@ te={correctAnswerMarkUpdate} attempt={attempt} options={opt} answer={q.answer} s
             {result && <Button onClick={handleResult} style={"bg-orange-300 px-10 py-2 rounded hover:bg-orange-400 mt-3"} >Show Results</Button>}
             {start && <Button onClick={ handleStart} style={"bg-orange-300 px-10 py-2 rounded hover:bg-orange-400"}>Start Quiz</Button>	} 
         </div>
-</div>
-); } export default App;
+      </div>
+    ); 
+} 
+export default App;
